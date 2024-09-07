@@ -1,6 +1,8 @@
 #include <iostream> 
 using namespace std;
  int main(){
-    cout << "hello world";
+    int age =41;
+
+    cout << age <<endl;
     return 0;
  }

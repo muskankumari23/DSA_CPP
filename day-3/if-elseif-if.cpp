@@ -2,12 +2,15 @@
 using namespace std;
  
  int main(){
+    int marks;
+    cout <<"enter markss: ";
+    cin>>marks;
     if (marks>=90){
         cout<<"A";
-    }elseif(marks>=80 && marks<90){
+    }else if(marks>=80 && marks<90){
     cout << "B";
-    }else{(marks>=70)
-        cout<<"c";
+    }else{
+        cout<<"C";
     }
     return 0;
- }
+ } 

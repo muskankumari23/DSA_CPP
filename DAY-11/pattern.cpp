@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
  
- int min (){
+ int main (){
     int n=5;
      
     for(i=0; i<n; i++){
@@ -12,5 +12,6 @@ using namespace std;
         }
         cout<<endl;
     }
+    return 0;
 
  }

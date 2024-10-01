@@ -1,20 +1,20 @@
 #include <iostream> 
-using namespace std; 
- void changeArr (int arr[], int size ){
-    cout << "in function \n";
-    for(int i=0; i<size; i++){
-        arr [i]=2*arr [i];
-    }
-    }
- int main() {
-    int Arr[]= {1,2,3};
-    changeArr (Arr,3);
-    cout <<"int main\n";
-    for (int i=0; i<3; i++ )
+ using namespace std; 
+ int linearSearh (int arr [], int sz){
+    for (int i=0; i<sz; i++)
     {
-        cout << Arr [i]<< " ";
+        if(arr [i]== target ){
+            return i;
+
+        }
     }
-    cout <<endl;
-    return 0; 
- 
+    return -1;
+ } 
+ int main(){
+    int arr[]={4,2,7,8,1,5,6};
+    int sz=7;
+    int target=8;
+    cout << linearSearch (arr,sz,target)<<endl;
+    return 0;
  }
+ 

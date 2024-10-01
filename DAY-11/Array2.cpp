@@ -8,6 +8,5 @@ using namespace std;
     smallest=min (num[i], smallest);
     cout<<"smallest=" <<smallest <<endl;
     return 0;
-
  }
  }

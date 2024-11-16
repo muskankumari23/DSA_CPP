@@ -5,7 +5,7 @@
     {
         if(arr [i]== target ){
             return i;
-
+            
         }
     }
     return -1;

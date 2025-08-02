@@ -17,4 +17,4 @@
     cout << linearSearch (arr,sz,target)<<endl;
     return 0;
  }
- 
+ f 
